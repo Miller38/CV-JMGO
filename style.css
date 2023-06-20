@@ -99,6 +99,7 @@ body{
     width: 180px;
     margin: 0 auto;    
     padding: 2px;
+    text-align: center;
     border-bottom: 1px solid var(--gray);
     border-top: 1px solid var(--gray);
     color: var(--gray);
@@ -122,7 +123,7 @@ body{
 
 .span1 img {
     /* background: white; */
-    width: 30px;
+    width: 40px;
     /* padding: 1px; */
     border-radius: 8px;
     float: left;
@@ -236,12 +237,12 @@ body{
   .bar{
     background-color: #EEE;
     padding: 2px;
-    border-radius: 15px;
-    margin-bottom: 5px;
+    border-radius: 12px;
+    margin-bottom: 3px;
     font-size: 14px;
     color: #343030;
     font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.);
   }
   .bar::before{
     content:  attr(data-skill);
